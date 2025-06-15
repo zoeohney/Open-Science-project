@@ -1,0 +1,136 @@
+---
+title: "openscience_psycholing_test_draft"
+format: html
+editor: visual
+---
+
+------------------------------------------------------------------------
+
+title: "Designing Open Experiments in Psycholinguistics" author: "Sydney, Zoe" date: "2025-06-15" format: html: toc: true number-sections: true code-fold: true df-print: paged embed-resources: true ---------------------
+
+## Chapter Goals
+
+By the end of this chapter, you’ll be able to:
+
+-   Understand what open materials are and why they matter in psycholinguistics.
+-   Locate and adapt existing open psycholinguistic tasks.
+-   Build and share your own experiment using open tools.
+
+## 1. Why Use Open Materials in Psycholinguistics?
+
+Psycholinguistics relies on standard tasks like lexical decision, priming, and self-paced reading. These tasks are ideal for open science because they are replicable, easy to remix, and powerful for comparative research.
+
+Benefits of open materials:
+
+-   Transparency and reproducibility
+-   Accessibility for students and low-resource institutions
+-   Easier collaboration and adaptation
+
+## 2. Where to Find and Run Open Psycholinguistic Tasks
+
+| Platform | What It’s Good For | Open Access? | Coding Skill? | Host Online? |
+|------------|--------------------------|------------|------------|------------|
+| PsyToolkit | Reaction time tasks, LDT, Stroop, Simon | Yes | Moderate | Yes |
+| IRIS Database | Downloadable SLA/psycholinguistic materials | Yes | None | No |
+| OSF | Sharing complete experiments & preprints | Yes | None | Depends |
+| PCIbex | Browser-based psycholinguistic tasks | Yes | Some | Yes |
+| Gorilla.sc | Drag-and-drop experiment design | Partially | Low | Yes |
+
+Tip: If you’re comfortable with basic scripting, PsyToolkit is an excellent place to start.
+
+## 3. Adapting a Task for L2 Research
+
+You don’t need to start from scratch. Begin with existing materials and tweak them for your goals.
+
+### Example: Metonymy in Self-Paced Reading
+
+Research Question: Do L2 English learners process sentences with metonymic expressions more slowly than literal sentences?
+
+Why this works:
+
+-   Metonymy involves contextual meaning
+-   Self-paced reading lets us observe word-by-word or phrase-by-phrase comprehension
+
+### Segment Format (Phrase-based)
+
+We use phrase-by-phrase presentation to preserve figurative meaning:
+
+Metonymy example:
+
+-   The press / criticized the decision / sharply.
+-   The bench / voted against the proposal / yesterday.
+
+Control example:
+
+-   Emma / went shopping for groceries.
+
+-   David / painted his bedroom walls / blue.
+
+## 4. Build an Open Experiment: Step-by-Step with PsyToolkit
+
+Let’s walk through an experiment from start to finish.
+
+### Research Question:
+
+Do L2 learners experience slower reading times for metonymic expressions?
+
+### Steps:
+
+1.  Go to <https://www.psytoolkit.org> and log in
+2.  Choose a template: Self-paced reading or Lexical Decision
+3.  Click “Use this experiment”
+4.  Replace stimulus text: Insert your metonymy and control sentences
+5.  Set segment display: Choose phrase-by-phrase for metonymy
+6.  Test and deploy: Use PsyToolkit’s online hosting feature
+7.  Export and analyze data: Download reaction times and compare groups
+
+Example stimulus list (randomized):
+
+1.  Tom played football in the park. He scored two goals yesterday.
+2.  The ship sailed into the harbor at dawn. The crew prepared for unloading.
+3.  Sarah read a fascinating book. She finished it in two days.
+4.  The bench voted against the proposal yesterday. Lawyers discussed the case.
+5.  David painted his bedroom walls blue. It looks fresh and clean.
+6.  The studio released a new movie this month. Audiences gave mixed reviews.
+7.  Emma went shopping for groceries. She bought apples and oranges.
+8.  The press criticized the decision sharply. Many readers were surprised.
+9.  Lisa baked a chocolate cake. Her friends loved the dessert.
+10. The track hosted several exciting races last weekend. Fans cheered loudly.
+
+## 5. Build an Open Experiment: Step-by-Step with Gorilla
+
+## 5. Reflect and Review
+
+Evaluation and thoughts
+
+### Reflection Activity:
+
+Which tool would you choose for your first experiment?
+
+-   GUI interface (no coding) → Gorilla.sc
+-   Templates plus online hosting → PsyToolkit
+-   Full scripting control → PCIbex
+
+### Mini Quiz:
+
+Q: Which of the following tools allow you to host experiments online? (Choose all that apply)
+
+-   [ ] IRIS Database
+-   [x] PsyToolkit
+-   [x] Gorilla.sc
+-   [x] PCIbex
+-   [ ] SPSS
+
+## Bonus 
+
+### 3 PsyToolkit Experiments You Can Try Today
+
+1.  Lexical Decision Task Purpose: Measure how fast participants recognize real words Customize: Replace words with L2 vocabulary or morphologically complex items
+
+2.  Stroop Task Purpose: Explore cognitive interference with bilingual participants Customize: Add bilingual stimuli or adjust congruency pairs
+
+3.  Simon Task Purpose: Study spatial attention and control Customize: Use language-relevant keys or visual categories
+
+## Suggested Readings
+
+blablablabal
